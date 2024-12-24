@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Below are the features that each team member handled, detailing their specific contributions to the project.
 --- 
 
@@ -94,3 +95,6 @@ The `json-server` will serve data from `db.json` and start on port 5001, dynamic
 Team triozeit
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9E64H9WI)
+=======
+# ExpenseTracker
+>>>>>>> b3bc65f038782106e783628f19de50ddd9ca9f4f
