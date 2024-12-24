@@ -9,28 +9,11 @@ The Expense Tracker is a robust tool designed to help users effectively manage t
 
 ## Features  
 
-### User Authentication  
-Allows users to securely sign up and log in, ensuring their data remains private.  
+The Expense Tracker allows users to securely sign up and log in, ensuring data privacy. Users can manage their expenses by adding, editing, deleting, and categorizing them. The system validates inputs to prevent invalid or empty entries. A search and filter functionality enables users to look up expenses based on specific details, dates, or categories. Users can track their daily spending activity with a dedicated section highlighting "Today's Expenses." A streak management feature motivates consistent usage by maintaining a daily streak when expenses are added regularly.
 
-### Expense Management  
-Users can add, edit, delete, and categorize their expenses. The system validates inputs to prevent empty or invalid entries.  
+The system generates comprehensive expense reports, categorized for better analysis. Users can also download these reports for offline use. Recent activities are highlighted, keeping users informed about their most recent spending patterns.
 
-### Search and Filter  
-Provides the ability to search for expenses based on specific details and filter them by date range or category.  
-
-### Daily Tracking  
-Highlights spending activity for the current day in the "Today's Expenses" section, helping users track their daily expenditures.  
-
-### Streak Management  
-Encourages consistent app usage by maintaining a daily streak whenever expenses are added.  
-
-### Expense Reports  
-Generates categorized reports to help users analyze their spending. Reports can be downloaded for offline use.  
-
-### Seamless User Experience  
-Designed with smooth navigation, proper error handling, and loading overlays to ensure consistent functionality and usability.  
-
----
+The interface is designed for a seamless user experience with smooth navigation, proper error handling, and loading overlays to ensure consistent functionality. Navigation errors and UI inconsistencies have been resolved to improve overall flow.
 
 ## Technologies Used  
 
@@ -47,7 +30,21 @@ Designed with smooth navigation, proper error handling, and loading overlays to 
 
 ### Steps to Run the Project  
 
-1. **Clone the Repository**  
-   ```bash
+1. Clone the Repository  
    git clone [repository_url]
+   
    cd [project_directory]
+   
+
+3. npm install
+
+
+
+4. npm run dev
+
+
+5. npm run db
+
+The json-server will serve data from db.json and start on port 5001. It dynamically updates based on changes made to the file.
+
+
