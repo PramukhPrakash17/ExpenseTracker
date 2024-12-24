@@ -1,100 +1,32 @@
-<<<<<<< HEAD
-Below are the features that each team member handled, detailing their specific contributions to the project.
---- 
+Overview
+The Expense Tracker is a robust tool designed to help users effectively manage their finances by tracking daily, weekly, and monthly expenses. It offers features such as secure authentication, detailed reporting, and intuitive expense management. Developed collaboratively by a team, the project focuses on modularity and user-centric functionality.
 
-**Manu Janardhana:**
-- **Advanced Expense Editing:**  
-  - Implemented splitting a single expense into multiple smaller parts.  
-    - Added validation to ensure amounts are numeric and not empty or whitespace.  
-    - Enabled splitting, editing, and deleting of these subdivided expenses.
+Features
 
-- **Streak Management:**  
-  - Developed a daily streak feature to encourage regular use.
-    - Daily login maintains a streak.
-    - Users with active streaks receive additional opportunities to add expenses (default limit: 5 entries/day).
+The Expense Tracker allows users to securely sign up and log in, ensuring data privacy. Users can manage their expenses by adding, editing, deleting, and categorizing them. The system validates inputs to prevent invalid or empty entries. A search and filter functionality enables users to look up expenses based on specific details, dates, or categories. Users can track their daily spending activity with a dedicated section highlighting "Today's Expenses." A streak management feature motivates consistent usage by maintaining a daily streak when expenses are added regularly.
 
-- **UI Fixes:**  
-  - Fixed various errors and improved overall UI flow.  
-  - Resolved navigation issues, including proper handling of the back button.  
-  - Added loading overlays to ensure smoother transitions.
+The system generates comprehensive expense reports, categorized for better analysis. Users can also download these reports for offline use. Recent activities are highlighted, keeping users informed about their most recent spending patterns.
 
----
+The interface is designed for a seamless user experience with smooth navigation, proper error handling, and loading overlays to ensure consistent functionality. Navigation errors and UI inconsistencies have been resolved to improve overall flow.
 
-**Pramukh Prakash:**
-- **Authentication:**  
-  - Developed secure signup and login functionality for user authentication.
+Technologies Used : 
+Vue.js , HTML5, CSS3 , JSON Server (DB).
 
-- **Search and Filter Expenses:**  
-  - Implemented search functionality based on expense details.  
-    - Added filters to search expenses within a specified date range.  
-    - Enabled filtering expenses by categories.
+Development Setup
+This project is built with Vue 3 and uses json-server for handling mock APIs.
 
-- **Expense Reports:**  
-  - Built the feature to generate and download detailed expense reports.
+Running the Project
+Clone the repository and navigate to the project directory:
 
----
+git clone [repository_url]
+cd [project_directory]
+Install dependencies:
 
-**Yathish Sadashivareddy:**
-- **CRUD Operations:**  
-  - Developed core features for managing expenses:  
-    - Adding new expenses.  
-    - Editing existing expenses.  
-    - Deleting expenses.
-    - Added validation to ensure not empty or whitespace.
+npm install
+Start the development server for the Vue 3 application:
 
-- **Expense Reports:** 
-  - Integrated expense categorization to better organize and analyze expenses within the reports.
+npm run dev
+Run the mock API server using the following command:
 
-- **Daily Tracking for Recent Activity:** 
-   - Added functionality to track whether users have added expenses for the current day.
-   - Displays "Today's Expenses" as recent activity on the dashboard.
-   - Highlights the most recent expenses added today, helping users stay informed about their daily spending.
-
-
-
----
-## Latest Updates
-
-All the latest changes and updates are available in the **main** branch.
-
-## Development Setup
-
-This project is built with **Vue 3** and uses `json-server` for handling mock APIs.
-
-### Running the Project
-
-1. Clone the repository and navigate to the project directory:
-
-   ```bash
-   git clone [repository_url]
-   cd [project_directory]
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server for the Vue 3 application:
-
-   ```bash
-   npm run dev
-   ```
-
-4. Run the mock API server using the following command:
-
-   ```bash
-   npm run db
-   ```
-
-The `json-server` will serve data from `db.json` and start on port 5001, dynamically updating based on changes in the file.
-
----
-
-Team triozeit
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9E64H9WI)
-=======
-# ExpenseTracker
->>>>>>> b3bc65f038782106e783628f19de50ddd9ca9f4f
+npm run db
+The json-server will serve data from db.json and start on port 5001, dynamically updating based on changes in the file.
